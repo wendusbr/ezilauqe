@@ -1,0 +1,48 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: pink;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.644);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+
+div#option{
+    display: flex;
+}
+
+div#left{
+    width: 250px;
+    text-align: right;
+}
+
+div#right{
+    width: 250px;
+}
+
+#yes{
+    width: 125px;
+    margin-right: 5px;
+}
+#no{
+    position: absolute;
+    width: 125px;
+    margin-top: 1px;
+    margin-left: 5px;
+}
