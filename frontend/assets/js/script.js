@@ -1,4 +1,5 @@
 function oba(){
+    window.alert("ooba :D");
     document.location.href = "confirm.html";
 }
 
