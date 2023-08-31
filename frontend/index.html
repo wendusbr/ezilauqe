@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ezilaue</title>
+    <title>Raquel</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
-        <audio src="audio.mp3" type="audio/mpeg" controls=""></audio>
+        <audio controls autoplay>
+            <source src="assets/audio/pitty-equalize.mp3" type="audio/mpeg">
+            <source src="assets/audio/pitty-equalize.ogg" type="audio/ogg">
+        </audio>
     </header>
 
     <section>
-        <h3 style="text-align: center;">Quer me namorar?</h3>
+        <img src="assets/img/radell.jpg" alt="radell">
+        <div id="texto">
+            <p>Não sabia como dizer isso até este exato momento, já se passou um ano desde nossa primeira interação, e depois de tudo que vivemos eu tomei uma decisão...</p>
+        </div>
+        <p style="text-align: center;">Raquel Alves Lacerda, quer me namorar?</p>
         <div id="option">
             <div id="left">
                 <input id="yes" type="button" value="Sim" onclick="oba()">
@@ -25,9 +32,10 @@
     </section>
 
     <footer>
-        <p>Copyright &copy; Wendell Bernardo</p>
+        <p>by: Wendell Bernardo</p>
     </footer>
 </body>
 
-<script src="assets/js/script.js"></script>
+<script src="assets/js/script.js"></script>  
+
 </html>

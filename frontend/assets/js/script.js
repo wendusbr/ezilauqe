@@ -1,5 +1,5 @@
 function oba(){
-    window.alert("Oobaa");
+    document.location.href = "confirm.html";
 }
 
 function run(){

@@ -23,8 +23,24 @@ footer{
     color: white;
 }
 
+img{
+    width: 250px;
+    margin: auto;
+    display: block;
+
+}
+
+div#texto{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
 div#option{
     display: flex;
+    margin-bottom: 10px;
 }
 
 div#left{
@@ -38,11 +54,13 @@ div#right{
 
 #yes{
     width: 125px;
+    height: 20px;
     margin-right: 5px;
 }
 #no{
     position: absolute;
     width: 125px;
+    height: 20px;
     margin-top: 1px;
     margin-left: 5px;
 }
